@@ -36,7 +36,7 @@ nav .left {
     margin-left: 10px;
 }
 
-nav .left .search_bar {
+nav .left .searchBar {
     width: 250px;
     height: 40px;
     background: #efefef;
@@ -47,14 +47,14 @@ nav .left .search_bar {
     left: 15px;
 }
 
-nav .left .search_bar i {
+nav .left .searchBar i {
     line-height: 40px;
     font-size: 19px;
     color: #919191;
     margin-right: 5px;
 }
 
-nav .left .search_bar input {
+nav .left .searchBar input {
     background: transparent;
     outline: none;
     border: 0;
@@ -228,14 +228,14 @@ nav .right img {
     width: 0;
 }
 
-.main .center .top_box {
+.main .center .topBox {
     width: 100%;
     height: 260px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.main .center .top_box .my_story_card {
+.main .center .topBox .myStoryCard {
     width: 135px;
     height: 250px;
     overflow: hidden;
@@ -245,14 +245,14 @@ nav .right img {
     cursor: pointer;
 }
 
-.main .center .top_box .my_story_card img {
+.main .center .topBox .myStoryCard img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.main .center .top_box .my_story_card .story_upload {
+.main .center .topBox .myStoryCard .storyUpload {
     width: 100%;
     height: 60px;
     background: #fff;
@@ -261,7 +261,7 @@ nav .right img {
     cursor: pointer;
 }
 
-.main .center .top_box .my_story_card .story_upload img {
+.main .center .topBox .myStoryCard .storyUpload img {
     width: 30px;
     height: 30px;
     display: flex;
@@ -271,7 +271,7 @@ nav .right img {
     border-radius: 50%;
 }
 
-.main .center .top_box .my_story_card .story_upload .story_tag {
+.main .center .topBox .myStoryCard .storyUpload .storyTag {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,7 +281,7 @@ nav .right img {
     font-size: 14px;
 }
 
-.main .center .top_box .story_card {
+.main .center .topBox .storyCard {
     width: 135px;
     height: 250px;
     overflow: hidden;
@@ -291,27 +291,27 @@ nav .right img {
     cursor: pointer;
 }
 
-.main .center .top_box .story_card img {
+.main .center .topBox .storyCard img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.main .center .top_box .story_card .story_profile {
+.main .center .topBox .storyCard .storyProfile {
     position: relative;
     bottom: 240px;
     margin-left: 10px;
 }
 
-.main .center .top_box .story_card .story_profile img {
+.main .center .topBox .storyCard .storyProfile img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     border: 4px solid #45abff;
 }
 
-.main .center .top_box .story_card .story_profile .cricle {
+.main .center .topBox .storyCard .storyProfile .cricle {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -322,19 +322,19 @@ nav .right img {
     left: 25px;
 }
 
-.main .center .top_box .story_card .story_name {
+.main .center .topBox .storyCard .storyName {
     position: relative;
     bottom: 100px;
     padding: 0 10px;
 }
 
-.main .center .top_box .story_card .story_name .name {
+.main .center .topBox .storyCard .storyName .name {
     font-weight: bold;
     color: #fff;
     font-size: 14px;
 }
 
-.main .center .my_post {
+.main .center .myPost {
     width: 100%;
     height: auto;
     background: #fff;
@@ -344,7 +344,7 @@ nav .right img {
     margin: 10px 0;
 }
 
-.main .center .my_post img {
+.main .center .myPost img {
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -352,12 +352,12 @@ nav .right img {
     object-position: center;
 }
 
-.main .center .my_post .post_top {
+.main .center .myPost .postTop {
     display: flex;
     align-items: center;
 }
 
-.main .center .my_post .post_top input {
+.main .center .myPost .postTop input {
     width: 90%;
     padding: 10px;
     margin-left: 20px;
@@ -368,12 +368,12 @@ nav .right img {
     font-size: 17px;
 }
 
-.main .center .my_post .post_top input:hover {
+.main .center .myPost .postTop input:hover {
     background: #e3e3e3;
     cursor: pointer;
 }
 
-.main .center .my_post hr {
+.main .center .myPost hr {
     width: 100%;
     height: 1px;
     background: #cccccc;
@@ -381,14 +381,14 @@ nav .right img {
     margin: 10px 0;
 }
 
-.main .center .my_post .post_bottom {
+.main .center .myPost .postBottom {
     width: 95%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 5px auto;
 }
 
-.main .center .my_post .post_bottom .post_icon {
+.main .center .myPost .postBottom .postIcon {
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -396,24 +396,24 @@ nav .right img {
     cursor: pointer;
 }
 
-.main .center .my_post .post_bottom .post_icon:hover {
+.main .center .myPost .postBottom .postIcon:hover {
     background: #efefef;
     border-radius: 8px;
 }
 
-.main .center .my_post .post_bottom .post_icon i.red {
+.main .center .myPost .postBottom .postIcon i.red {
     font-size: 23px;
     color: red;
     margin-right: 8px;
 }
 
-.main .center .my_post .post_bottom .post_icon i.green {
+.main .center .myPost .postBottom .postIcon i.green {
     font-size: 23px;
     color: #27cc37;
     margin-right: 8px;
 }
 
-.main .center .my_post .post_bottom .post_icon i.yellow {
+.main .center .myPost .postBottom .postIcon i.yellow {
     font-size: 23px;
     color: #f7b928;
     margin-right: 8px;
@@ -430,7 +430,7 @@ nav .right img {
     align-items: center;
 }
 
-.main .center .room .room_image {
+.main .center .room .roomImage {
     display: flex;
     align-items: center;
     border: 1px solid #45abff;
@@ -440,21 +440,21 @@ nav .right img {
     margin-right: 5px;
 }
 
-.main .center .room .room_image:hover {
+.main .center .room .roomImage:hover {
     background: #efefef;
     cursor: pointer;
 }
 
-.main .center .room .room_image img {
+.main .center .room .roomImage img {
     width: 25px;
     margin-right: 8px;
 }
 
-.main .center .room .room_image .room_tag {
+.main .center .room .roomImage .roomTag {
     color: #45abff;
 }
 
-.main .center .room .room_profile img {
+.main .center .room .roomProfile img {
     width: 45px;
     height: 45px;
     object-fit: cover;
@@ -464,7 +464,7 @@ nav .right img {
     border: 3px solid #45abff;
 }
 
-.main .center .friends_post {
+.main .center .friendsPost {
     margin: 10px 0;
     width: 100%;
     height: auto;
@@ -474,19 +474,19 @@ nav .right img {
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
 }
 
-.main .center .friends_post .friend_post_top {
+.main .center .friendsPost .friendPostTop {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;
 }
 
-.main .center .friends_post .friend_post_top .img_and_name {
+.main .center .friendsPost .friendPostTop .imgAndName {
     display: flex;
     align-items: center;
 }
 
-.main .center .friends_post .friend_post_top .img_and_name img {
+.main .center .friendsPost .friendPostTop .imgAndName img {
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -496,44 +496,44 @@ nav .right img {
     cursor: pointer;
 }
 
-.main .center .friends_post .friend_post_top .img_and_name .friends_name .friends_name {
+.main .center .friendsPost .friendPostTop .imgAndName .friendsName .friendsName {
     font-weight: bold;
     cursor: pointer;
 }
 
-.main .center .friends_post .friend_post_top .img_and_name .friends_name .friends_name:hover {
+.main .center .friendsPost .friendPostTop .imgAndName .friendsName .friendsName:hover {
     text-decoration: underline;
 }
 
-.main .center .friends_post .friend_post_top .img_and_name .friends_name .time {
+.main .center .friendsPost .friendPostTop .imgAndName .friendsName .time {
     font-size: 14px;
     color: #919191;
     margin: 3px 0;
 }
 
-.main .center .friends_post .friend_post_top .img_and_name .friends_name .time i {
+.main .center .friendsPost .friendPostTop .imgAndName .friendsName .time i {
     font-size: 10px;
     margin-left: 5px;
 }
 
-.main .center .friends_post .friend_post_top .menu {
+.main .center .friendsPost .friendPostTop .menu {
     width: 35px;
     height: 35px;
     border-radius: 50%;
 }
 
-.main .center .friends_post .friend_post_top .menu:hover {
+.main .center .friendsPost .friendPostTop .menu:hover {
     background: #efefef;
     cursor: pointer;
 }
 
-.main .center .friends_post .friend_post_top .menu i {
+.main .center .friendsPost .friendPostTop .menu i {
     line-height: 35px;
     margin-left: 8px;
     font-size: 18px;
 }
 
-.main .center .friends_post img {
+.main .center .friendsPost img {
     width: 100%;
     height: 450px;
     object-fit: cover;
@@ -541,40 +541,40 @@ nav .right img {
     border-radius: 5px;
 }
 
-.main .center .friends_post .info {
+.main .center .friendsPost .info {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 10px 0;
 }
 
-.main .center .friends_post .info .emoji_img {
+.main .center .friendsPost .info .emojiImg {
     display: flex;
 }
 
-.main .center .friends_post .info .emoji_img img {
+.main .center .friendsPost .info .emojiImg img {
     width: 20px;
     height: 20px;
 }
 
-.main .center .friends_post .info .emoji_img p {
+.main .center .friendsPost .info .emojiImg p {
     margin-left: 10px;
     font-size: 16px;
     color: #919191;
 }
 
-.main .center .friends_post .info .comment {
+.main .center .friendsPost .info .comment {
     display: flex;
     align-items: center;
 }
 
-.main .center .friends_post .info .comment p {
+.main .center .friendsPost .info .comment p {
     padding: 0 12px;
     font-size: 15px;
     color: #919191;
 }
 
-.main .center .friends_post hr {
+.main .center .friendsPost hr {
     width: 100%;
     height: 1px;
     background: #cccccc;
@@ -582,7 +582,7 @@ nav .right img {
     margin: 10px 0;
 }
 
-.main .center .friends_post .like {
+.main .center .friendsPost .like {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -590,27 +590,27 @@ nav .right img {
     justify-content: space-between;
 }
 
-.main .center .friends_post .like .like_icon {
+.main .center .friendsPost .like .likeIcon {
     display: flex;
     align-items: center;
 }
 
-.main .center .friends_post .like .like_icon i {
+.main .center .friendsPost .like .likeIcon i {
     font-size: 20px;
     margin-right: 8px;
     color: #919191;
 }
 
-.main .center .friends_post .like .like_icon i.activi {
+.main .center .friendsPost .like .likeIcon i.activi {
     color: #45abff;
 }
 
-.main .center .friends_post .comment_warpper {
+.main .center .friendsPost .commentWarpper {
     display: flex;
     align-items: center;
 }
 
-.main .center .friends_post .comment_warpper img {
+.main .center .friendsPost .commentWarpper img {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -619,7 +619,7 @@ nav .right img {
     margin-right: 15px;
 }
 
-.main .center .friends_post .comment_warpper .circle {
+.main .center .friendsPost .commentWarpper .circle {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -630,14 +630,14 @@ nav .right img {
     right: 25px;
 }
 
-.main .center .friends_post .comment_warpper .comment_search {
+.main .center .friendsPost .commentWarpper .commentSearch {
     width: 95%;
     padding: 5px 15px;
     background: #efefef;
     border-radius: 30px;
 }
 
-.main .center .friends_post .comment_warpper .comment_search input {
+.main .center .friendsPost .commentWarpper .commentSearch input {
     width: 85%;
     height: 30px;
     background: none;
@@ -645,7 +645,7 @@ nav .right img {
     outline: none;
 }
 
-.main .center .friends_post .comment_warpper .comment_search i {
+.main .center .friendsPost .commentWarpper .commentSearch i {
     padding: 0 5px;
     color: #919191;
 }
@@ -709,41 +709,41 @@ nav .right img {
     background: #cccccc;
 }
 
-.main .right .first_warpper .page {
+.main .right .firstWarpper .page {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.main .right .first_warpper .page h2 {
+.main .right .firstWarpper .page h2 {
     font-size: 18px;
     color: #919191;
     margin: 5px 0;
 }
 
-.main .right .first_warpper .page .menu {
+.main .right .firstWarpper .page .menu {
     width: 35px;
     height: 35px;
     border-radius: 50%;
 }
 
-.main .right .first_warpper .page .menu:hover {
+.main .right .firstWarpper .page .menu:hover {
     background: #efefef;
     cursor: pointer;
 }
 
-.main .right .first_warpper .page .menu i {
+.main .right .firstWarpper .page .menu i {
     line-height: 35px;
     margin-left: 8px;
     font-size: 18px;
 }
 
-.main .right .first_warpper .page_img {
+.main .right .firstWarpper .pageImg {
     display: flex;
     align-items: center;
 }
 
-.main .right .first_warpper .page_img img {
+.main .right .firstWarpper .pageImg img {
     width: 35px;
     height: 35px;
     object-fit: cover;
@@ -753,18 +753,18 @@ nav .right img {
     cursor: pointer;
 }
 
-.main .right .first_warpper .page_icon {
+.main .right .firstWarpper .pageIcon {
     display: flex;
     align-items: center;
 }
 
-.main .right .first_warpper .page_icon i {
+.main .right .firstWarpper .pageIcon i {
     color: #919191;
     font-size: 20px;
     margin: 8px 15px 8px 0;
 }
 
-.page_icon:hover {
+.pageIcon:hover {
     background: #e3e3e3;
     cursor: pointer;
 }
@@ -777,43 +777,43 @@ nav .right img {
     margin: 10px auto;
 }
 
-.main .right .second_warpper h2 {
+.main .right .secondWarpper h2 {
     font-size: 18px;
     color: #919191;
     margin: 5px 0;
 }
 
-.main .right .second_warpper .img_and_tag {
+.main .right .secondWarpper .imgAndTag {
     display: flex;
     align-items: center;
 }
 
-.main .right .second_warpper .img_and_tag img {
+.main .right .secondWarpper .imgAndTag img {
     width: 40px;
     margin: 8px 15px 8px 0;
 }
 
-.main .right .second_warpper .img_and_tag p {
+.main .right .secondWarpper .imgAndTag p {
     line-height: 22px;
 }
 
-.main .right .second_warpper .img_and_tag p span {
+.main .right .secondWarpper .imgAndTag p span {
     font-weight: bold;
 }
 
-.main .right .third_warpper .contact_tag {
+.main .right .thirdWarpper .contactTag {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.main .right .third_warpper .contact_tag h2 {
+.main .right .thirdWarpper .contactTag h2 {
     font-size: 18px;
     color: #919191;
     margin: 5px 0;
 }
 
-.main .right .third_warpper .contact_tag .contact_icon i {
+.main .right .thirdWarpper .contactTag .contactIcon i {
     margin: 0 5px;
     width: 35px;
     height: 35px;
@@ -822,17 +822,17 @@ nav .right img {
     padding-left: 10px;
 }
 
-.main .right .third_warpper .contact_tag .contact_icon i:hover {
+.main .right .thirdWarpper .contactTag .contactIcon i:hover {
     background: #efefef;
     cursor: pointer;
 }
 
-.main .right .third_warpper .contact {
+.main .right .thirdWarpper .contact {
     display: flex;
     align-items: center;
 }
 
-.main .right .third_warpper .contact img {
+.main .right .thirdWarpper .contact img {
     width: 35px;
     height: 35px;
     object-fit: cover;
@@ -842,7 +842,7 @@ nav .right img {
     border: 3px solid #45abff;
     cursor: pointer;
 }
-.main .right .third_warpper .contact .circle {
+.main .right .thirdWarpper .contact .circle {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -852,3 +852,4 @@ nav .right img {
     top: 15px;
     right: 25px;
 }
+
